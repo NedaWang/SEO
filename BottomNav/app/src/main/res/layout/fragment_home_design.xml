@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sharp Circles SEO Guide"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+    
+    <Button
+        android:id="@+id/bt_steps"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_headline"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Website SEO steps"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        />
+
+    <Button
+        android:id="@+id/bt_about_app"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt_steps"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="About app"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_emoji_objects_24" />
+
+    <Button
+        android:id="@+id/bt_about_sharpcircles"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt_steps"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/bt_about_app"
+        android:text="About Sharp Circles"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_emoji_objects_24" />
+
+    <Button
+        android:id="@+id/bt_feedback"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt_about_app"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_feedback_24"
+        android:padding="20dp"
+        android:text="Leave Feedback"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_share"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt_about_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/bt_feedback"
+        android:text="Share"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_screen_share_24" />
+
+
+</RelativeLayout>
