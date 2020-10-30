@@ -10,6 +10,10 @@ public class Tip {
     private String image;
     private String video;
 
+    public Tip(){
+
+    }
+
     public Tip(int id, String name, String description, String why, String how){
         this.id = id;
         this.name = name;
