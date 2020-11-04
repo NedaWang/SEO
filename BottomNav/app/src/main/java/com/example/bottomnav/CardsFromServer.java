@@ -23,7 +23,7 @@ import com.example.bottomnav.util.FormatConvert;
 
 import java.util.ArrayList;
 
-public class CardsFragment extends Fragment {
+public class CardsFromServer extends Fragment {
 
     private RecyclerView recyclerView;
     private CardAdapter adapter;

@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.bottomnav.util.CardsFragment;
+
 public class HomeFragment extends Fragment {
 
     private Button bt_steps;

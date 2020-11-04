@@ -27,6 +27,10 @@ public class Tip {
         this.name = name;
     }
 
+    public Tip(int id) {
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }
